@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConvertMate</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="exchange-03-stroke-rounded.svg">
+</head>
+
+<body>
+<div class="convert bg-slate-500">
+  <h1 class="text-center text-4xl font-bold text-white mb-6 relative top-5">
+    Track global currencies anytime, anywhere — fast, easy, and intuitive for everyone.
+  </h1>
+
+    <div class="body min-h-screen flex justify-center items-center">
+   <div class="container bg-white p-8 rounded-lg max-w-md">
+        <h2 class="text-2xl font-bold flex justify-center">ConvertMate</h2>
+        <form class="p-4 m-4">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input class="border border-black rounded-lg w-full h-12" value="1" type="text"></input>
+            </div>
+            <div class="dropdown flex justify-between items-center m-8">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container flex justify-center items-center border border-black rounded-lg ">
+                        <img class="max-w-8" src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from">
+
+                        </select>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path d="M20.5 5.5H9.5C5.78672 5.5 3 8.18503 3 12" stroke="#141B34" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3.5 18.5H14.5C18.2133 18.5 21 15.815 21 12" stroke="#141B34" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M18.5 3C18.5 3 21 4.84122 21 5.50002C21 6.15882 18.5 8 18.5 8" stroke="#141B34"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M5.49998 16C5.49998 16 3.00001 17.8412 3 18.5C2.99999 19.1588 5.5 21 5.5 21"
+                        stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container flex justify-center items-center border border-black rounded-lg ">
+                        <img class="max-w-8" src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="To">
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg m-8">1 USD = 88INR</div>
+            <button id="Exchange"
+                class="border border-black px-4 py-2 rounded-lg w-full h-12 text-lg cursor-pointer hover:bg-slate-300">Get
+                Exchange Rate</button>
+        </form>
+    </div>
+    </div>
+</div>
+
+<footer  class="bg-black text-white py-6">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
+
+    <div class="text-center md:text-left">
+      <p class="text-sm">&copy; ConvertMate — All rights reserved</p>
+    </div>
+
+    <div class="text-center md:text-left">
+      <h3 class="text-lg font-semibold">Contact Us</h3>
+      <p class="text-sm">bhattsketch41@gmail.com</p>
+    </div>
+
+    <div class="text-center md:text-left">
+      <h3 class="text-lg font-semibold mb-2">Follow Us On</h3>
+      <div class="flex justify-center md:justify-start gap-3">
+        <a href="https://www.linkedin.com/in/shashankbhatt41/" target="_blank">
+          <img src="icons8-linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
